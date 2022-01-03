@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
-}
+/*----------------------------------------------*/
+/*-------------------Default--------------------*/
+/*----------------------------------------------*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background: #1a1a1a;
+  min-height:91.3vh;
   display: flex;
-  flex-direction: column;
+  color: #ecf2f9;
+  font-size: small;
+}
+/*----------------------------------------------*/
+/*----------------Music Player------------------*/
+/*----------------------------------------------*/
+
+.Header{
+  padding: 5px 0 0 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
   align-items: center;
+  background-color:#404040;
+  height:8.5vh;
+  width: 100vw;
+  color: #ecf2f9;
+}
+
+.HeaderMask{
+  position: static;
+  background-color: #99acee;
+  padding: 5px 0 0 5px;
+  height:8vh;
+  width: 10vw;
+}
+
+.PlayerBack{
+  position: fixed;
+  background-color: #203064;
+  padding:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 78.6vw;
+  text-align: center;
+  top:90.5vh;
+}
+.PlayerBackMask{
+  padding:5px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 70vw;
+  top:88vh;
+}
+
+.PlayerButton{
+  background:none;
+  width: 3em;
+  height: 3em;
+  border-width: 0;
+  border-radius: 1.5em;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.PlayerSongName{
+  width: 44.51vw;
+  text-align: start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PlayerSongDuration{
+  width: 45vw;
+  text-align: end;
+}
+
+.MiniCover{
+  margin: 10px;
+  background-color: cadetblue;
+  width: 3em;
+  height: 3em;
+}
+
+/*----------------------------------------------*/
+/*--------------------Drawer--------------------*/
+/*----------------------------------------------*/
+
+.Drawer{
+  padding:5px 0 0 5px;
+  position:fixed;
+  width:15vw;
+  height:90.6vh;
+  background-color: #333333;
+}
+
+.DrawerMask{
+  position: static;
+  padding: 5px 0 0 5px;
+  width:15vw;
+  height:90.6vh;
+}
+
+/*----------------------------------------------*/
+/*-------------------Segment--------------------*/
+/*----------------------------------------------*/
+
+.Segment{
+  padding: 15px;
+  padding-left:6vw;
+  width:100%;
+  margin-top: 20px;
+}
+
+.ContentMusicRow{
+  display: flex;
+  justify-content:space-around;
+  background-color: #333333;
+  border-radius: 5px;
+  padding: 5px;
+  width:78vw;
+  margin-bottom:3vh;
+  font-size: 0.99em;
+}
+
+.MusicSquare{
+  display: inline-grid;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  width: 14vw;
+  height: 16vw;
+  margin-left: 7px; 
+}
+
+.AlbumCover{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 13.5vw;
+  height: 13VW;
+  background-color: #3f3f3f;
+  transition: all .3s 
+}
+
+.AlbumCover:hover{
+  content: '';
+  width: 14vw;
+  height: 13.5VW;
+  background-color: #5a5959;
+}
+
+.AlbumCoverBig{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 16.5vw;
+  height: 16VW;
+  background-color: #3f3f3f;
+  transition: all .3s
+}
+
+.CarouselButton{
+  background:transparent;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #4e4e4e;
+}
+
+
+
+/*----------------------------------------------*/
+/*--------------------Song----------------------*/
+/*----------------------------------------------*/
+
+.SongButton{
+  display: flex;
+  border: none;
+  background: none;
+  color: #ecf2f9;
+  text-align: start;
+}
+
+.SongName{
+  background-color:#262626;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  padding:6px;
+  font-size:15px;
+  width:69vw;
+  margin-bottom:10px;
+}
+
+.SongDuration{
+  background-color:#262626;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  padding:6px;
+  font-size:15px;
+  width:8vw;
+  text-align:end;
+  margin-bottom:10px;
 }

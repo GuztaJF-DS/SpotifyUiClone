@@ -1,0 +1,309 @@
+[
+    {
+        "Name":"Magical Mystery Tour",
+        "Year":1967,
+        "Artist":"The Beatles",
+        "Cover":"https://m.media-amazon.com/images/I/91LrXdPTwZL._AC_SL1500_.jpg",
+        "TrackList":[
+            {
+                "Name":"Magical Mystery Tour",
+                "Duration":"2:43"
+            },
+            {
+                "Name":"The Fool on the Hill",
+                "Duration":"3:00"
+            },
+            {
+                "Name":"Flying",
+                "Duration":"2:16"
+            },
+            {
+                "Name":"Blue Jay Way",
+                "Duration":"3:56"
+            },
+            {
+                "Name":"Your Mother Should Know",
+                "Duration":"2:29"
+            },
+            {
+                "Name":"I Am the Walrus",
+                "Duration":"4:36"
+            },
+            {
+                "Name":"Hello, Goodbye",
+                "Duration":"3:30"
+            },
+            {
+                "Name":"Strawberry Fields Forever",
+                "Duration":"4:10"
+            },
+            {
+                "Name":	"Penny Lane",
+                "Duration":"3:03"
+            },
+            {
+                "Name":"Baby, You're a Rich Man" ,
+                "Duration":"3:03"
+            },
+            {
+                "Name":"All You Need Is Love"  ,
+                "Duration":"3:48"
+            }
+        ]
+    },
+    {
+        "Name":"Wish You Were Here",
+        "Year":1975,
+        "Artist":"Pink Floyd",
+        "Cover":"https://m.media-amazon.com/images/I/810CGm6+GbL._AC_SL1500_.jpg",
+        "TrackList":[
+            {
+                "Name":"Shine On You Crazy Diamond(I-V)",
+                "Duration":"13:38"
+            },
+            {
+                "Name":	"Welcome to the Machine",
+                "Duration":"7:30"
+            },
+            {
+                "Name":"Have a Cigar",
+                "Duration":"5:24"
+            },
+            {
+                "Name":"Wish You Were Here",
+                "Duration":"5:17"
+            },
+            {
+                "Name":"Shine On You Crazy Diamond(I-V)",
+                "Duration":"12:29"
+            }
+        ]
+    },
+    {
+        "Name":"Meddle",
+        "Year":1971,
+        "Artist":"Pink Floyd",
+        "Cover":"https://theentreacordes.files.wordpress.com/2021/07/meddle.jpg",
+        "TrackList":[
+            {
+                "Name":"One Of These Days",
+                "Duration":"5:57"
+            },
+            {
+                "Name":"A Pillow of Winds",
+                "Duration":"5:10"
+            },
+            {
+                "Name":"Fearless",
+                "Duration":"6:08"
+            },
+            {
+                "Name":"San Tropez",
+                "Duration":"3:43"
+            },
+            {
+                "Name":"Seamus",
+                "Duration":"2:15"
+            },
+            {
+                "Name":"Echoes",
+                "Duration":"23:29"
+            }
+        ]
+    },
+    {
+        "Name":"Californication",
+        "Year":1999,
+        "Artist":"Red Hot Chili Peppers",
+        "Cover":"https://m.media-amazon.com/images/I/81kKCMLtpBL._AC_SL1200_.jpg",
+        "TrackList":[
+            {
+                "Name":"Around the World",
+                "Duration":"3:58"
+            },
+            {
+                "Name":"Parallel Universe",
+                "Duration":"4:30"
+            },
+            {
+                "Name":"Scar Tissue",
+                "Duration":"3:35"
+            },
+            {
+                "Name":"Otherside",
+                "Duration":"4:15"
+            },
+            {
+                "Name":"Get on Top",
+                "Duration":"3:18"
+            },
+            {
+                "Name":"Californication",
+                "Duration":"5:21"
+            },
+            {
+                "Name":"Easily",
+                "Duration":"3:51"
+            },
+            {
+                "Name":"Porcelain",
+                "Duration":"2:43"
+            },
+            {
+                "Name":"Emit Remmus",
+                "Duration":"4:00"
+            },
+            {
+                "Name":"I Like Dirt",
+                "Duration":"2:37"
+            },
+            {
+                "Name":"This Velvet Glove",
+                "Duration":"3:45"
+            },
+            {
+                "Name":"Savior",
+                "Duration":"4:52"
+            },
+            {
+                "Name":"Purple Stain",
+                "Duration":"4:13"
+            },
+            {
+                "Name":"Right on Time",
+                "Duration":"2:08"
+            },
+            {
+                "Name":"Road Trippin'",
+                "Duration":"3:25"
+            }
+        ]
+    },
+    {
+        "Name":"Pinkerton",
+        "Year":1996,
+        "Artist":"Weezer",
+        "Cover":"https://www.udiscovermusic.com/wp-content/uploads/2019/09/Weezer-Pinkerton-album-cover-820.jpg",
+        "TrackList":[
+            {
+                "Name":"Tired of Sex",
+                "Duration":"3:01"
+            },
+            {
+                "Name":"Getchoo",
+                "Duration":"2:52"
+            },
+            {
+                "Name":"No Other One",
+                "Duration":"3:01"
+            },
+            {
+                "Name":"Why Bother?",
+                "Duration":"2:08"
+            },
+            {
+                "Name":"Across the Sea",
+                "Duration":"4:32"
+            },
+            {
+                "Name":"The Good Life",
+                "Duration":"4:17"
+            },
+            {
+                "Name":"El Scorcho",
+                "Duration":"4:03"
+            },
+            {
+                "Name":"Pink Triangle",
+                "Duration":"3:58"
+            },
+            {
+                "Name":"Falling for You",
+                "Duration":"3:47"
+            },
+            {
+                "Name":"Butterfly",
+                "Duration":"2:53"
+            }        
+        ]
+    },{
+        "Name":"23525",
+        "Year":1967,
+        "Artist":"The Beatles",
+        "Cover":"https://m.media-amazon.com/images/I/91LrXdPTwZL._AC_SL1500_.jpg",
+        "TrackList":[
+            {
+                "Name":"Magical Mystery Tour",
+                "Duration":"2:43"
+            },
+            {
+                "Name":"The Fool on the Hill",
+                "Duration":"3:00"
+            },
+            {
+                "Name":"Flying",
+                "Duration":"2:16"
+            },
+            {
+                "Name":"Blue Jay Way",
+                "Duration":"3:56"
+            },
+            {
+                "Name":"Your Mother Should Know",
+                "Duration":"2:29"
+            },
+            {
+                "Name":"I Am the Walrus",
+                "Duration":"4:36"
+            },
+            {
+                "Name":"Hello, Goodbye",
+                "Duration":"3:30"
+            },
+            {
+                "Name":"Strawberry Fields Forever",
+                "Duration":"4:10"
+            },
+            {
+                "Name":	"Penny Lane",
+                "Duration":"3:03"
+            },
+            {
+                "Name":"Baby, You're a Rich Man" ,
+                "Duration":"3:03"
+            },
+            {
+                "Name":"All You Need Is Love"  ,
+                "Duration":"3:48"
+            }
+        ]
+    },
+    {
+        "Name":"34343",
+        "Year":1975,
+        "Artist":"Pink Floyd",
+        "Cover":"https://m.media-amazon.com/images/I/810CGm6+GbL._AC_SL1500_.jpg",
+        "TrackList":[
+            {
+                "Name":"Shine On You Crazy Diamond(I-V)",
+                "Duration":"13:38"
+            },
+            {
+                "Name":	"Welcome to the Machine",
+                "Duration":"7:30"
+            },
+            {
+                "Name":"Have a Cigar",
+                "Duration":"5:24"
+            },
+            {
+                "Name":"Wish You Were Here",
+                "Duration":"5:17"
+            },
+            {
+                "Name":"Shine On You Crazy Diamond(I-V)",
+                "Duration":"12:29"
+            }
+        ]
+    }
+]
