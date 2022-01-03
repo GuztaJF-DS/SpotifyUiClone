@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders? 1`] = `
+<div
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": "7px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "fontSize": "25px",
+      }
+    }
+  >
+    Fileira Aleatória
+  </div>
+  <div
+    className="ContentMusicRow"
+  >
+    <button
+      className="CarouselButton"
+      onClick={[Function]}
+    >
+      &lt;
+    </button>
+    <nav
+      className="MusicGroup"
+    >
+      <a
+        href="/Album/0"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ecf2f9",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <div
+          className="MusicSquare"
+        >
+          <img
+            alt="Magical Mystery Tour"
+            className="AlbumCover"
+            src="https://m.media-amazon.com/images/I/91LrXdPTwZL._AC_SL1500_.jpg"
+          />
+          <div>
+            Magical Mystery Tour
+          </div>
+        </div>
+      </a>
+    </nav>
+    <nav
+      className="MusicGroup"
+    >
+      <a
+        href="/Album/1"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ecf2f9",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <div
+          className="MusicSquare"
+        >
+          <img
+            alt="Wish You Were Here"
+            className="AlbumCover"
+            src="https://m.media-amazon.com/images/I/810CGm6+GbL._AC_SL1500_.jpg"
+          />
+          <div>
+            Wish You Were Here
+          </div>
+        </div>
+      </a>
+    </nav>
+    <nav
+      className="MusicGroup"
+    >
+      <a
+        href="/Album/2"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ecf2f9",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <div
+          className="MusicSquare"
+        >
+          <img
+            alt="Meddle"
+            className="AlbumCover"
+            src="https://theentreacordes.files.wordpress.com/2021/07/meddle.jpg"
+          />
+          <div>
+            Meddle
+          </div>
+        </div>
+      </a>
+    </nav>
+    <nav
+      className="MusicGroup"
+    >
+      <a
+        href="/Album/3"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ecf2f9",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <div
+          className="MusicSquare"
+        >
+          <img
+            alt="Californication"
+            className="AlbumCover"
+            src="https://m.media-amazon.com/images/I/81kKCMLtpBL._AC_SL1200_.jpg"
+          />
+          <div>
+            Californication
+          </div>
+        </div>
+      </a>
+    </nav>
+    <nav
+      className="MusicGroup"
+    >
+      <a
+        href="/Album/4"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ecf2f9",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <div
+          className="MusicSquare"
+        >
+          <img
+            alt="Pinkerton"
+            className="AlbumCover"
+            src="https://www.udiscovermusic.com/wp-content/uploads/2019/09/Weezer-Pinkerton-album-cover-820.jpg"
+          />
+          <div>
+            Pinkerton
+          </div>
+        </div>
+      </a>
+    </nav>
+    <button
+      className="CarouselButton"
+      onClick={[Function]}
+    >
+      &gt;
+    </button>
+  </div>
+</div>
+`;
