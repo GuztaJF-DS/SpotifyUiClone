@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useDispatch,useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { PlaySong } from "../Redux/SongSlice";
 import Data from '../Data.json';
 import SecondsToHours from '../MenuFunctions/SecondsToHours'
@@ -9,7 +9,6 @@ export default function Song(){
     let Tracks=Data[params.id].TrackList;
     let AlbumInSeconds=0;
 
-    const Song=useSelector((state)=>state.Song.value)
     const dispatch=useDispatch();
 
     for (var i=0;i<Tracks.length;i++){
@@ -17,6 +16,7 @@ export default function Song(){
         let seconds=(parseInt(DurationSplited[0])*60)+parseInt(DurationSplited[1]);
         AlbumInSeconds+=seconds; 
     }
+
 
     let AlbumLength=SecondsToHours(AlbumInSeconds)
 

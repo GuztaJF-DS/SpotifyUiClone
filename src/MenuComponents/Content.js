@@ -19,7 +19,6 @@ function Content(){
                 }
             }
             setTriggerCarousel("")
-            console.log(carousel)
         }catch(err){
             console.log(err);
         }

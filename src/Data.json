@@ -227,82 +227,118 @@
             }        
         ]
     },{
-        "Name":"23525",
-        "Year":1967,
+        "Name":"1",
+        "Year":2000,
         "Artist":"The Beatles",
-        "Cover":"https://m.media-amazon.com/images/I/91LrXdPTwZL._AC_SL1500_.jpg",
+        "Cover":"https://m.media-amazon.com/images/I/61Ds2iWnCfL._AC_SL1050_.jpg",
         "TrackList":[
             {
-                "Name":"Magical Mystery Tour",
+                "Name":"Love Me Do",
+                "Duration":"2:21"
+            },
+            {
+                "Name":"From Me to You",
+                "Duration":"1:55"
+            },
+            {
+                "Name":"She Loves You",
+                "Duration":"2:21"
+            },
+            {
+                "Name":"I Want to Hold Your Hand" ,
+                "Duration":"2:24"
+            },
+            {
+                "Name":"Can't Buy Me Love",
+                "Duration":"2:11"
+            },
+            {
+                "Name":"A Hard Day's Night",
+                "Duration":"2:33"
+            },
+            {
+                "Name":"I Feel Fine" ,
+                "Duration":"2:18"
+            },
+            {
+                "Name":"Eight Days a Week",
                 "Duration":"2:43"
             },
             {
-                "Name":"The Fool on the Hill",
-                "Duration":"3:00"
+                "Name":"Ticket to Ride" ,
+                "Duration":"3:08"
             },
             {
-                "Name":"Flying",
+                "Name":"Help!",
+                "Duration":"2:18"
+            },
+            {
+                "Name":"Yesterday",
+                "Duration":"2:05"
+            },
+            {
+                "Name":"Day Tripper",
+                "Duration":"2:48"
+            },
+            {
+                "Name":"We Can Work It Out" ,
+                "Duration":"2:15"
+            },
+            {
+                "Name":"Paperback Writer",
                 "Duration":"2:16"
             },
             {
-                "Name":"Blue Jay Way",
-                "Duration":"3:56"
+                "Name":"Yellow Submarine",
+                "Duration":"2:37"
             },
             {
-                "Name":"Your Mother Should Know",
-                "Duration":"2:29"
+                "Name":"Eleanor Rigby",
+                "Duration":"2:06"
             },
             {
-                "Name":"I Am the Walrus",
-                "Duration":"4:36"
+                "Name":"Penny Lane",
+                "Duration":"3:00"
             },
             {
-                "Name":"Hello, Goodbye",
-                "Duration":"3:30"
+                "Name":"All You Need Is Love" ,
+                "Duration":"3:46"
             },
             {
-                "Name":"Strawberry Fields Forever",
-                "Duration":"4:10"
+                "Name":"Hello, Goodbye" ,
+                "Duration":"3:26"
             },
             {
-                "Name":	"Penny Lane",
-                "Duration":"3:03"
+                "Name":"Lady Madonna",
+                "Duration":"2:15"
             },
             {
-                "Name":"Baby, You're a Rich Man" ,
-                "Duration":"3:03"
+                "Name":"Hey Jude",
+                "Duration":"7:03"
             },
             {
-                "Name":"All You Need Is Love"  ,
+                "Name":"Get Back",
+                "Duration":"3:12"
+            },
+            {
+                "Name":"The Ballad of John and Yoko",
+                "Duration":"2:57"
+            },
+            {
+                "Name":"Something" ,
+                "Duration":"3:01"
+            },
+            {
+                "Name":"Come Together" ,
+                "Duration":"4:16"
+            },
+            {
+                "Name":"Let It Be" ,
                 "Duration":"3:48"
-            }
-        ]
-    },
-    {
-        "Name":"34343",
-        "Year":1975,
-        "Artist":"Pink Floyd",
-        "Cover":"https://m.media-amazon.com/images/I/810CGm6+GbL._AC_SL1500_.jpg",
-        "TrackList":[
-            {
-                "Name":"Shine On You Crazy Diamond(I-V)",
-                "Duration":"13:38"
             },
             {
-                "Name":	"Welcome to the Machine",
-                "Duration":"7:30"
-            },
-            {
-                "Name":"Have a Cigar",
-                "Duration":"5:24"
-            },
-            {
-                "Name":"Wish You Were Here",
-                "Duration":"5:17"
-            },
-            {
-                "Name":"Shine On You Crazy Diamond(I-V)",
-                "Duration":"12:29"
+                "Name":"The Long and Winding Road",
+                "Duration":"3:36"
             }
         ]
     }

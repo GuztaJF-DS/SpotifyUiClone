@@ -59,6 +59,9 @@
   border-radius: 1.5em;
   justify-content: center;
 }
+#Backward{
+  transform: scaleX(-1);
+}
 
 .PlayerSongName{
   width: 44.51vw;
