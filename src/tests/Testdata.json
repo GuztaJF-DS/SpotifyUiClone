@@ -1,0 +1,16 @@
+[{
+    "Name":"Theory EP",
+    "Year":1969,
+    "Artist":"Theory Band",
+    "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ0LMK5I1YTzwo8WW2d3mLmADgNirBpeNHZ9pQu5mhXCURELwbQ9o_IuenJY9BPwxveWg&usqp=CAU",
+    "TrackList":[
+        {
+            "Name":"Song 1",
+            "Duration":"2:57"
+        },
+        {
+            "Name":"Song 2",
+            "Duration":"2:10"
+        }
+    ]
+}]

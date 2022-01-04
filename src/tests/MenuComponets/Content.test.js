@@ -16,5 +16,4 @@ it('renders?',()=>{
       </Routes></BrowserRouter>
     ).toJSON();
     expect(tree).toMatchSnapshot();
-    expect("0").toBe('0')
 })

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It Creates TrackList 1`] = `
+Array [
+  <button
+    className="SongButton"
+    onClick={[Function]}
+  >
+    <div
+      className="SongName"
+    >
+      Song 1
+    </div>
+    <div
+      className="SongDuration"
+    >
+      2:57
+    </div>
+  </button>,
+  <button
+    className="SongButton"
+    onClick={[Function]}
+  >
+    <div
+      className="SongName"
+    >
+      Song 2
+    </div>
+    <div
+      className="SongDuration"
+    >
+      2:10
+    </div>
+  </button>,
+]
+`;

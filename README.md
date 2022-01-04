@@ -22,6 +22,8 @@ This is a project made in React Js, so the idea is to make an ui for and music s
 
 · Create a Range Input
 
+· Better Scroll
+
 ## Instalation
 
 after Downloaded the project you just have to install the dependencies with
