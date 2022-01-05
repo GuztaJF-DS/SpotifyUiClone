@@ -1,5 +1,5 @@
-import SecondsToHours from '../MenuFunctions/SecondsToHours';
-import CreateTrackList from '../MenuFunctions/CreateTrackList';
+import SecondsToHours from '../Pages/SecondsToHours';
+import CreateTrackList from '../Pages/CreateTrackList';
 import TestData from './Testdata.json';
 import renderer from 'react-test-renderer'
 

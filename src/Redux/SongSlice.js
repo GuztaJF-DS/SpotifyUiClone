@@ -10,7 +10,7 @@ export const SongSlice=createSlice({
             state.value=action.payload
         },
         PreviousSong:(state)=>{
-            if(state.value.SongId!=0){
+            if(state.value.SongId!==0){
                 state.value.SongId-=1
             }
         },

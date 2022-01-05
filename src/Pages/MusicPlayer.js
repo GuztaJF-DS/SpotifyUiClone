@@ -5,7 +5,6 @@ import { PreviousSong,NextSong } from '../Redux/SongSlice';
 
 export default function MusicPlayer(){
     const Song=useSelector((state)=>state.Song.value)
-
     
     const dispatch=useDispatch();
 
@@ -19,8 +18,10 @@ export default function MusicPlayer(){
 
                 <button id="Backward" onClick={()=>{
                     dispatch(PreviousSong());
-                }} className="PlayerButton"><Forward fill="white" stroke='none'/></button>    
+                }} className="PlayerButton"><Forward fill="white" stroke='none'/></button> 
+
                 <button className="PlayerButton"><PauseSvg fill="white" stroke='none'/></button>
+                
                 <button className="PlayerButton" onClick={()=>{
                     dispatch(NextSong())
                 }}><Forward fill="white" stroke='none'/></button>

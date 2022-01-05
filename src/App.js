@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react' 
 import { Routes,Route } from 'react-router-dom';
-import MusicPlayer from './MenuComponents/MusicPlayer';
-import MusDrawer from './MenuComponents/Drawer';
-import Content from './MenuComponents/Content';
-import Song from './MenuComponents/Song';
+import MusicPlayer from './Pages/MusicPlayer';
+import MusDrawer from './Pages/Drawer';
+import Content from './Pages/Content';
+import Song from './Pages/Song';
 
 function App() {
   return (

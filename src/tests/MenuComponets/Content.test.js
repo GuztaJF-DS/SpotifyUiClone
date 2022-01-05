@@ -3,8 +3,8 @@ import renderer from 'react-test-renderer';
 import { Routes,Route } from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom'
 
-import Content from "../../MenuComponents/Content";
-import Song from '../../MenuComponents/Song'
+import Content from "../../Pages/Content";
+import Song from '../../Pages/Song'
 
 it('renders?',()=>{
     const tree=renderer.create(
