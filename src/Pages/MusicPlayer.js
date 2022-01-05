@@ -11,11 +11,14 @@ export default function MusicPlayer(){
     return(
     <>
         <div className="Header">
-            <img src={Song.SongCover} alt="Banner" className='MiniCover'/>
-            <div className='PlayerSongName'>
-                {Song.TrackList[Song.SongId].Name}
+            <div id='HeaderSplited' style={{display:"flex",alignItems:"start"}}>
+                <img src={Song.SongCover} alt="Banner" className='MiniCover'/>
+                <div className='PlayerSongName'>
+                    {Song.TrackList[Song.SongId].Name}
+                </div>
             </div>
 
+            <div id='HeaderSplited' style={{display:"flex",justifyContent:'center',height:'85%'}}>
                 <button id="Backward" onClick={()=>{
                     dispatch(PreviousSong());
                 }} className="PlayerButton"><Forward fill="white" stroke='none'/></button> 
@@ -25,9 +28,13 @@ export default function MusicPlayer(){
                 <button className="PlayerButton" onClick={()=>{
                     dispatch(NextSong())
                 }}><Forward fill="white" stroke='none'/></button>
-            
-            <div className='PlayerSongDuration'>
+            </div>
+
+            <div id='HeaderSplited' >
+            <div className='PlayerSongDuration' style={{paddingRight:20}}>
                 {Song.TrackList[Song.SongId].Duration}
+                {}
+            </div>
             </div>
         </div>
     </>

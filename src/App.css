@@ -21,8 +21,12 @@
   align-items: center;
   background-color:#404040;
   height:8.5vh;
-  width: 100vw;
   color: #ecf2f9;
+  flex-direction: row;
+}
+
+#HeaderSplited{
+  width: 33.333333vw;
 }
 
 .HeaderMask{
@@ -64,12 +68,11 @@
 }
 
 .PlayerSongName{
-  width: 44.51vw;
   text-align: start;
+  padding-top:7px
 }
 
 .PlayerSongDuration{
-  width: 45vw;
   text-align: end;
 }
 
@@ -78,6 +81,12 @@
   background-color: cadetblue;
   width: 3em;
   height: 3em;
+}
+
+.PlayerButtonsGroup{
+  display: flex;
+  position: static;
+  width:10em;
 }
 
 /*----------------------------------------------*/
