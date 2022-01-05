@@ -110,7 +110,7 @@
   margin-top: 20px;
 }
 
-.ContentMusicRow{
+.carousel{
   display: flex;
   justify-content:space-around;
   background-color: #333333;
@@ -121,31 +121,25 @@
   font-size: 0.99em;
 }
 
-.MusicSquare{
+.MusicGroup{
   display: inline-grid;
   justify-content:center;
   align-items: center;
   text-align: center;
   width: 14vw;
   height: 16vw;
-  margin-left: 7px; 
+  margin-top: 3px; 
+  margin-bottom: 7px; 
+  transform: none;
 }
 
 .AlbumCover{
   display: flex;
   justify-content:center;
   align-items:center;
-  width: 13.5vw;
-  height: 13VW;
+  width: 12.5vw;
+  height: 12VW;
   background-color: #3f3f3f;
-  transition: all .3s 
-}
-
-.AlbumCover:hover{
-  content: '';
-  width: 14vw;
-  height: 13.5VW;
-  background-color: #5a5959;
 }
 
 .AlbumCoverBig{

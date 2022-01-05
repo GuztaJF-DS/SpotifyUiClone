@@ -27,7 +27,7 @@ export default function MusicPlayer(){
                 }}><Forward fill="white" stroke='none'/></button>
             
             <div className='PlayerSongDuration'>
-                {Song.SongDuration}
+                {Song.TrackList[Song.SongId].Duration}
             </div>
         </div>
     </>
