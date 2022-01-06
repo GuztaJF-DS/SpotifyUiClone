@@ -3,7 +3,7 @@ import {createSlice} from '@reduxjs/toolkit';
 export const SongSlice=createSlice({
     name:'Song',
     initialState:{
-        value:{TrackList:'[{"Name":"","Duration":""}]',SongId:0,SongCover:""}
+        value:{TrackList:'[{"Name":"","Duration":""}]',SongId:0,SongCover:"",Artist:""}
     },
     reducers:{
         PlaySong:(state,action)=>{

@@ -18,15 +18,27 @@
   bottom: 0;
   position: fixed;
   display: flex;
-  align-items: center;
   background-color:#404040;
   height:8.5vh;
   color: #ecf2f9;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.UpPart{
+  display: flex;
+  position: static;
+  height: 5vh;
   flex-direction: row;
+}
+
+.DownPart{
+  display: flex;
 }
 
 #HeaderSplited{
   width: 33.333333vw;
+  height: 2.5em;
 }
 
 .HeaderMask{
@@ -68,12 +80,15 @@
 }
 
 .PlayerSongName{
-  text-align: start;
-  padding-top:7px
+  display: block;
+  padding-top:12px;
 }
 
 .PlayerSongDuration{
-  text-align: end;
+  display: flex;
+  justify-content: end;
+  padding-right:26px;
+  padding-top:16px
 }
 
 .MiniCover{
@@ -87,6 +102,11 @@
   display: flex;
   position: static;
   width:10em;
+}
+
+#ArtistName{
+  color: #b2b7bd;
+  font-size: smaller;
 }
 
 /*----------------------------------------------*/

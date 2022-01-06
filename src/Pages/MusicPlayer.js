@@ -2,6 +2,7 @@ import { ReactComponent as PauseSvg } from '../Assets/pause.svg'
 import { ReactComponent as Forward } from '../Assets/Forward.svg';
 import { useSelector,useDispatch } from 'react-redux';
 import { PreviousSong,NextSong } from '../Redux/SongSlice';
+import SongRange from '../MenuComponents/SongRange';
 
 export default function MusicPlayer(){
     const Song=useSelector((state)=>state.Song.value)
@@ -11,11 +12,14 @@ export default function MusicPlayer(){
     return(
     <>
         <div className="Header">
+            <div className='UpPart'>
             <div id='HeaderSplited' style={{display:"flex",alignItems:"start"}}>
                 <img src={Song.SongCover} alt="Banner" className='MiniCover'/>
                 <div className='PlayerSongName'>
-                    {Song.TrackList[Song.SongId].Name}
+                    <div id='SongName'>{Song.TrackList[Song.SongId].Name}</div>
+                    <div id="ArtistName">{Song.Artist}</div>
                 </div>
+                
             </div>
 
             <div id='HeaderSplited' style={{display:"flex",justifyContent:'center',height:'85%'}}>
@@ -31,12 +35,15 @@ export default function MusicPlayer(){
             </div>
 
             <div id='HeaderSplited' >
-            <div className='PlayerSongDuration' style={{paddingRight:20}}>
-                {Song.TrackList[Song.SongId].Duration}
-                {}
+            <div className='PlayerSongDuration'>
+                {Song.TrackList[Song.SongId].Duration} / {Song.TrackList[Song.SongId].Duration}
             </div>
             </div>
-        </div>
+            </div>
+            <div className='DownPart'>
+                <SongRange/>
+            </div>
+     </div>    
     </>
     )
 }

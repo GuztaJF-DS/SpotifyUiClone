@@ -5,6 +5,7 @@ export default function CreateTrackList(props){
 
     let Tracks=props.JSONData[props.AlbumId].TrackList;
     let Cover=props.JSONData[props.AlbumId].Cover
+    let Artist=props.JSONData[props.AlbumId].Artist
     let dispatch=props.dispatch
     let TracksJsx=[];
 
@@ -14,7 +15,7 @@ export default function CreateTrackList(props){
                     ()=>{
                         dispatch(
                             PlaySong(
-                                {"TrackList":Tracks,"SongId":index,"SongCover":Cover}
+                                {"TrackList":Tracks,"SongId":index,"SongCover":Cover,"Artist":Artist}
                             )
                         )
                     }
