@@ -25,7 +25,20 @@ function Content(){
                 pagination={{
                     "clickable": true
                   }}
-                  
+                breakpoints={{
+                    0:{
+                        spaceBetween:5,
+                        slidesPerView:3
+                    },
+                    771:{
+                        spaceBetween:1,
+                        slidesPerView:4
+                    },
+                    1000:{
+                        spaceBetween:10,
+                        slidesPerView:5
+                    }
+                }}                  
             >
                {JSONData.map(function(data,i){
                    return(
@@ -33,7 +46,7 @@ function Content(){
                         <Link draggable="false" style={{textDecoration:"none", color:'#ecf2f9'}} to={`/Album/${i}`}>
                             <div className="MusicSquare">
                                 <img draggable="false" src={data.Cover} alt={data.Name} className="AlbumCover"/>
-                                <div>{data.Name}</div>
+                                <div className='MusicName'>{data.Name}</div>
                             </div>
                         </Link>
                     </SwiperSlide>
