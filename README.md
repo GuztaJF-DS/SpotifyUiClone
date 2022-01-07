@@ -10,6 +10,8 @@ This is a project made in React Js, so the idea is to make an UI for a music str
 
 ~~· Change the current Song with the Buttons (Forward and Backward)~~
 
+· Volume
+
 · Create a Better Hover Animation
 
 · Fav Music and Album

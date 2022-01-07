@@ -30,6 +30,7 @@ export default function CreateTrackList(props){
                     </div>
                 </button>
             )
+            return data.Name;
         })
         
         return TracksJsx

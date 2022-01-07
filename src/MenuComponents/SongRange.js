@@ -17,18 +17,18 @@ export default function SongRange(){
                     style={{
                         ...props.style,
                         display:"flex",
-                        height: "36px",
+                        height: "12px",
                         position:"static",
-                        marginTop:"-10px",
-                        width: "100vw",
+                        marginTop:"-6px",
+                        width: "50vw",
                         justifyContent: "center",
                     }}
                     >
                     <div
                         ref={props.ref}
                         style={{
-                        height: "5px",
-                        width: "50%",
+                        height: "50%",
+                        width: "100%",
                         borderRadius: "4px",
                         background: "#FFF",
                         alignSelf: "center"

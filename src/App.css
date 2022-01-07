@@ -19,7 +19,7 @@
   position: fixed;
   display: flex;
   background-color:#404040;
-  height:8.5vh;
+  height:9vh;
   color: #ecf2f9;
   width: 100vw;
   flex-direction: column;
@@ -34,6 +34,8 @@
 
 .DownPart{
   display: flex;
+  justify-content:center;
+  padding-top: 15px;
 }
 
 #HeaderSplited{
@@ -75,6 +77,10 @@
   border-radius: 1.5em;
   justify-content: center;
 }
+
+.PlayerButton:hover{
+  cursor: pointer;
+}
 #Backward{
   transform: scaleX(-1);
 }
@@ -86,9 +92,9 @@
 
 .PlayerSongDuration{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right:26px;
-  padding-top:16px
+  padding-top:23px
 }
 
 .MiniCover{
@@ -199,7 +205,10 @@
   border: none;
   background: none;
   color: #ecf2f9;
-  text-align: start;
+}
+
+.SongButton:hover{
+  cursor: pointer;
 }
 
 .SongName{
@@ -210,6 +219,7 @@
   font-size:15px;
   width:69vw;
   margin-bottom:10px;
+  text-align: start;
 }
 
 .SongDuration{
