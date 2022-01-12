@@ -11,20 +11,30 @@ export default function MusicPlayer(){
     function HandleChangeText(e){
         if(e){
             e.classList.remove("Animate")
+            let Shadow=document.querySelector(".Shadow")
+            Shadow.classList.remove("NewSize")
             let TextWidth=parseInt(getComputedStyle(e, null).width)
+            let PlayerSong=document.querySelector('.PlayerSong');
+            let PSWidth=parseInt(getComputedStyle(PlayerSong,null).width)
 
-            if(TextWidth>=190){
-                let Offset=(190-TextWidth)-12;
-                console.log(Offset)
-                e.style.setProperty("--offsetSize",Offset+'px')
-                e.classList.add("Animate")
-            }
-            else{
-                e.style.setProperty("--offsetSize","0px")
-            }
+                if(TextWidth>=PSWidth){
+                    let Offset=(PSWidth-TextWidth)-8;
+                    e.style.setProperty("--offsetSize",Offset+'px')
+                    Shadow.style.setProperty("--shadowBoxSize",(PSWidth)+1+'px')
+                    e.classList.add("Animate")
+                    Shadow.classList.add("NewSize")
+                }
+                else{
+                    e.style.setProperty("--offsetSize","0px")
+                }
+            
+        }        
+    }
+    
 
-        }
-        
+    window.onresize=function(){
+        let PlayerSongName=document.querySelector('.PlayerSongName');
+        HandleChangeText(PlayerSongName)
     }
 
     return(

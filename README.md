@@ -37,3 +37,8 @@ and start the project with
 ### `yarn start` or `npm start` or `npx react-scripts start`
 
 and then it should start in some avaliable port
+
+## Preview
+
+If you just want to see the current state of the app, just open this Link :)
+https://spotifycloneui.netlify.app/
